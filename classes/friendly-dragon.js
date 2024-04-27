@@ -12,24 +12,26 @@ class FriendlyDragon extends Dragon {
             console.log(`${this.name} likes to ${goal}`);
         })
     }
+
+    helpsPeople() {
+        return `${this.name} helps their friend ${this.friend}`;
+    }
 }
 
-module.exports = {
-    FriendlyDragon
-}
+module.exports = FriendlyDragon;
 
 /*****************************CONSOLE.LOGS ************************************/
 
-const puff = new FriendlyDragon(
-    "Puff",
-    "green",
-    [
-      "live by the sea",
-      "frolick in the autumn mist",
-      "help small children"
-    ],
-    "Jackie Paper"
-  );
+// const puff = new FriendlyDragon(
+//     "Puff",
+//     "green",
+//     [
+//       "live by the sea",
+//       "frolick in the autumn mist",
+//       "help small children"
+//     ],
+//     "Jackie Paper"
+//   );
 
 //   console.log(puff);
 //   console.log(puff.breathesFire()); //Friendly dragons can still breathe fire!
