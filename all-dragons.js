@@ -18,6 +18,7 @@ const allDragons = Dragon.getDragons(falkor, smaug);
 // smaug.dontInviteThemOverForDinner();
 // console.log(smaug.breathesFire());
 // console.log(smaug.burnsNemesis());
+// console.log(allDragons);
 
 /****************************************************************************/
 /******************* DO NOT EDIT CODE BELOW THIS LINE ***********************/
